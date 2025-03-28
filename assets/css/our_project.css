@@ -1,0 +1,113 @@
+body {
+    background-color: #fffbea;
+    font-family: Arial, sans-serif;
+    padding: 30px;
+}
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+.our_project{
+    color: #3a8aab;
+    font-size: 60px;
+}
+
+.project-thumb{
+    width: 90%;
+    height: 95%;
+    max-height: 310px;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project_name{
+    color: #3a8aab;
+    font-size: 42px;
+}
+
+.techno-icon{
+    font-size: 50px;
+    color: #3a8aab;
+}
+
+.fa-html5{
+    color: #e34c26;
+}
+
+.fa-css3-alt{
+    color: #264de4;
+}
+
+.fa-bootstrap{
+    color: #563d7c;
+}
+
+.scrum-master, .designer, .dev-front, .dev-back, .tester{
+    color: #fffbea; 
+    height: 35px;
+    min-width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scrum-master{
+    background-color: #FF404F;
+}
+
+.designer{
+    background-color: #3DB85F;
+}
+
+.dev-back{
+    background-color:#6F6F6E;
+}
+
+.dev-front{
+    background-color: #D9E90E;
+}
+
+.tester{
+    background-color: #6D3D76;
+}
+
+.roles{
+    justify-content: space-between;
+    border-radius: 50rem;
+    background: #fffbea;
+}
+
+.view{
+    position: relative;
+    float: right;
+}
+
+.border-bottom{
+    border-width: 3px !important;
+    border-color: #264de4 !important;
+}
+
+.image-box{
+    z-index: -99;
+}
+
+.image-box img {
+    position: absolute;
+    width: 150px; /* Adjust size */
+    height: auto;
+    opacity: 0.5;
+    transform: scale(1.5);
+}
+
+.image-box img:nth-child(1) { top: 10px; left: 20px; width: 60px; rotate: -10deg; } /* Smaller */
+.image-box img:nth-child(2) { top: 50px; left: 60px; width: 90px; rotate: 15deg; } /* Larger */
+.image-box img:nth-child(3) { top: 30px; left: 120px; width: 70px; rotate: -5deg; } /* Medium */
+.image-box img:nth-child(4) { top: 70px; left: 180px; width: 100px; rotate: 10deg; } /* Larger */
+.image-box img:nth-child(5) { top: 90px; left: 240px; width: 55px; rotate: -8deg; } /* Smallest */
